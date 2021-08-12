@@ -1,0 +1,34 @@
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62%;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.light-left, .light-right {
+    float: left;
+}
+
+.light-left {
+    width: 20%;
+}
+
+.light-right {
+    width: 80%;
+}
+
+.first-right, .second-right {
+    float: left;
+    width: 40%;
+}
+
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: block;
+}
