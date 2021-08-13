@@ -11,19 +11,21 @@
     <main>
         <div class="light-container clearfix">
             <div class="light-left">
-                <p>last 7 days</p>
-                <p>last 14 days</p>
-                <p>last 20 days</p>
-                <p>last 3 months</p>
-                <p><span>last 12 months</span></p>
-                <p>month to date</p>
-                <p>quater to date</p>
-                <p>all time</p>
-                <p>custom</p>
+                <p>Last 7 days</p>
+                <p>Last 14 days</p>
+                <p>Last 20 days</p>
+                <p>Last 3 months</p>
+                <div class="month">
+                    <p><span class="month1">Last 12 months</span></p>
+                </div>
+                <p>Month to date</p>
+                <p>Quater to date</p>
+                <p>All time</p>
+                <p>Custom</p>
             </div>
             <div class="light-right clearfix">
                 <div class="first-right">
-                    <h2>&#60; febuary &#62;</h2>
+                    <h2><span class="than">&#60;</span> <span class="month2"> febuary</span> &#62;</h2>
                     <table>
                         <thead>
                             <tr>
@@ -48,7 +50,7 @@
                             </tr>
                             <tr>
                                 <td>8</td>
-                                <td><span class="color1">9</span></td>
+                                <td><span class="than">9</span></td>
                                 <td>10</td>
                                 <td>11</td>
                                 <td>12</td>
@@ -59,19 +61,21 @@
                                 <td>15</td>
                                 <td>16</td>
                                 <td>17</td>
-                                <td><span class="color2">18</span></td>
-                                <td><span>19</span></td>
-                                <td><span>20</span></td>
-                                <td><span>21</span></td>
+                                <div class="color1">
+                                    <td><span class="color2">18</span></td>
+                                    <td><span class="color1">19</span></td>
+                                    <td><span class="color1">20</span></td>
+                                    <td><span class="color1">21</span></td>
+                                </div>
                             </tr>
                             <tr>
-                                <td><span>22</span></td>
-                                <td><span>23</span></td>
-                                <td><span>24</span></td>
-                                <td><span>25</span></td>
-                                <td><span>26</span></td>
-                                <td><span>27</span></td>
-                                <td><span>28</span></td>
+                                <td><span class="color1">22</span></td>
+                                <td><span class="color1">23</span></td>
+                                <td><span class="color1">24</span></td>
+                                <td><span class="color1">25</span></td>
+                                <td><span class="color1">26</span></td>
+                                <td><span class="color1">27</span></td>
+                                <td><span class="color1">28</span></td>
                             </tr>
                             <tr>
                                 <td><span class="color">1</span></td>
@@ -84,22 +88,11 @@
                             </tr>
                         </tbody>
                     </table>
-                    <hr>
-                    <div class="input">
-                        <div class="date1">
-                            <p class="date2">18/02/2021</p>
-                        </div>
-                        &#8594;
-                        <form action="">
-                            <div class="form-container">
-                                <input type="number" id="number" name="number" placeholder="11/03/20">
-                            </div>
-                        </form>
-                    </div>
+                   
 
                 </div>
                 <div class="second-right">
-                    <h2>&#60; march &#62;</h2>
+                    <h2>&#60; <span class="month2"> march</span> &#62;</h2>
                     <table>
                         <thead>
                             <tr>
@@ -160,18 +153,215 @@
                             </tr>
                         </tbody>
                     </table>
-                    <hr>
-                    <div class="button">
-                        <div class="date3">
-                            <p class="date4">cancel</p>
+                    
+                </div>
+            </div>
+            <div class="container clearfix">
+                <div class="input clearfix">
+                    <div class="date1">
+                        <p class="date2">18/02/2021</p>
+                    </div>
+                    <form action="">
+                        <div class="form-container">
+                           <span class="arrow">&#8594;</span> 
+                            <input type="number" id="number" name="number" placeholder="11/03/20">
+                        </div>
+                    </form>
+                </div>
+                <div class="button clearfix">
+                    <div class="date1">
+                        <p class="date3">cancel</p>
+                    </div>
+                    <div class="btn-container">
+                        <button class="btn-primary">set date</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        <div class="darkmode">
+
+            <div class="dark-container clearfix">
+                <div class="dark-left">
+                    <p>Last 7 days</p>
+                    <p>Last 14 days</p>
+                    <p>Last 20 days</p>
+                    <p>Last 3 months</p>
+                    <div class="month3">
+                        <p><span class="month1">Last 12 months</span></p>
+                    </div>
+                    <p>Month to date</p>
+                    <p>Quater to date</p>
+                    <p>All time</p>
+                    <p>Custom</p>
+                </div>
+                <div class="dark-right clearfix">
+                    <div class="first1-right">
+                        <h2><span class="than1">&#60;</span> <span class="month2"> febuary</span> &#62;</h2>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td>mo</td>
+                                    <td>tu</td>
+                                    <td>we</td>
+                                    <td>th</td>
+                                    <td>fri</td>
+                                    <td>sa</td>
+                                    <td>su</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><span class="color5">1</span></td>
+                                    <td><span class="color5">2</span></td>
+                                    <td><span class="color5">3</span></td>
+                                    <td><span class="color5">4</span></td>
+                                    <td><span class="color5">5</span></td>
+                                    <td><span class="color5">6</span></td>
+                                    <td><span class="color5">7</span></td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td><span class="than1">9</span></td>
+                                    <td>10</td>
+                                    <td>11</td>
+                                    <td>12</td>
+                                    <td>13</td>
+                                    <td>14</td>
+                                </tr>
+                                <tr>
+                                    <td>15</td>
+                                    <td>16</td>
+                                    <td>17</td>
+                                    <div class="color1">
+                                        <td><span class="color2">18</span></td>
+                                        <td><span class="color1">19</span></td>
+                                        <td><span class="color1">20</span></td>
+                                        <td><span class="color1">21</span></td>
+                                    </div>
+                                </tr>
+                                <tr>
+                                    <td><span class="color1">22</span></td>
+                                    <td><span class="color1">23</span></td>
+                                    <td><span class="color1">24</span></td>
+                                    <td><span class="color1">25</span></td>
+                                    <td><span class="color1">26</span></td>
+                                    <td><span class="color1">27</span></td>
+                                    <td><span class="color1">28</span></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="color5">1</span></td>
+                                    <td><span class="color5">2</span></td>
+                                    <td><span class="color5">3</span></td>
+                                    <td><span class="color5">4</span></td>
+                                    <td><span class="color5">5</span></td>
+                                    <td><span class="color5">6</span></td>
+                                    <td><span class="color5">7</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                       
+    
+                    </div>
+                    <div class="second-right">
+                        <h2>&#60; <span class="month2"> march</span> &#62;</h2>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td>mo</td>
+                                    <td>tu</td>
+                                    <td>we</td>
+                                    <td>th</td>
+                                    <td>fri</td>
+                                    <td>sa</td>
+                                    <td>su</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><span class="color3">1</span></td>
+                                    <td><span class="color3">2</span></td>
+                                    <td><span class="color3">3</span></td>
+                                    <td><span class="color3">4</span></td>
+                                    <td><span class="color3">5</span></td>
+                                    <td><span class="color3">6</span></td>
+                                    <td><span class="color3">7</span></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="color3">8</span></td>
+                                    <td><span class="color3">9</span></td>
+                                    <td><span class="color3">10</span></td>
+                                    <td><span class="color3">11</span></td>
+                                    <td>12</td>
+                                    <td>13</td>
+                                    <td>14</td>
+                                </tr>
+                                <tr>
+                                    <td>15</td>
+                                    <td>16</td>
+                                    <td>17</td>
+                                    <td>18</td>
+                                    <td>19</td>
+                                    <td>20</td>
+                                    <td>21</td>
+                                </tr>
+                                <tr>
+                                    <td>22</td>
+                                    <td>23</td>
+                                    <td>24</td>
+                                    <td>25</td>
+                                    <td>26</td>
+                                    <td>27</td>
+                                    <td>28</td>
+                                </tr>
+                                <tr>
+                                    <td>29</td>
+                                    <td>30</td>
+                                    <td>31</td>
+                                    <td><span class="color5">1</span></td>
+                                    <td><span class="color5">2</span></td>
+                                    <td><span class="color5">3</span></td>
+                                    <td><span class="color5">4</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        
+                    </div>
+                </div>
+                <div class="container clearfix">
+                    <div class="input clearfix">
+                        <div class="date1">
+                            <p class="date2">18/02/2021</p>
+                        </div>
+                        <form action="">
+                            <div class="form-container">
+                               <span class="arrow">&#8594;</span> 
+                                <input class="put" type="number" id="number" name="number" placeholder="11/03/20">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="button clearfix">
+                        <div class="date1">
+                            <p class="date3">cancel</p>
                         </div>
                         <div class="btn-container">
-                            <button class="btn-priary">set date</button>
+                            <button class="btn-primary">set date</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
     </main>
 </body>
 </html>
