@@ -50,8 +50,12 @@ body {
     padding: .5rem 0;
 }
 
-.month1 {
+.month1, .month4 {
     padding: 2rem 0;
+}
+
+.month4 {
+    /* background-color: #313133; */
 }
 
 p {
@@ -195,13 +199,13 @@ input {
 }
 
 input:hover {
-    border: 1px solid purple;
+    border: 1px solid #3d3061;
     outline: none;
 }
 
 .btn-primary {
     width: 20rem;
-    background-color: purple;
+    background-color: #673ab7;
     border-radius: .5rem;
     color: white;
     border: none;
@@ -225,13 +229,13 @@ input:hover {
     margin: 10rem auto;
     margin-bottom: 0;
     padding: 5rem 0;
-    background-color: rgb(24, 22, 22);
+    background-color: #181818;
 }
 
 
 .dark-container {
     max-width: 1200px;
-    background-color: rgb(85, 81, 81);
+    background-color: #28282a;
     margin: 10rem auto;
     /* margin-bottom: 0; */
     /* padding: 3rem; */
@@ -247,7 +251,7 @@ input:hover {
 
 
 .month3 {
-    background-color: rgb(116, 111, 111);
+    background-color: #313133;
     /* color: white; */
     width: 100%;
     padding: .5rem 0;
@@ -258,13 +262,13 @@ input:hover {
 }
 
 .than1 {
-    background-color: rgb(116, 111, 111);
+    background-color: #313133;
     padding: 1rem 1.5rem;
     border-radius: .5rem;
 }
 
 .date1 {
-    background-color: rgb(116, 111, 111);
+    background-color: #313133;
     font-size: 1.5rem;
     border-radius: .5rem;
     /* margin-left: 1rem; */
